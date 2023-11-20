@@ -3,6 +3,9 @@ import React, { useTransition, useState } from 'react';
 import Image from 'next/image';
 import TabButton from './TabButton';
 
+
+{/*información que mostrarermos en el apartado Sobre Mi */}
+
 const TAB_DATA = [
     {
         title: "Habilidades",
@@ -59,9 +62,13 @@ const TAB_DATA = [
 
 
 const AboutSection = () => {
+    {/*Estado para almacenar la pestaña activa y una función para actualizarla */}
     const [tab, setTab] = useState("habilidades");
+
+    {/*Hook de transición para manejar cambios de estado de manera suave */}
     const [isPending, startTransition] = useTransition();
 
+    {/* Función para manejar cambios de pestaña */}
     const handleTabChange = (id) => {
         startTransition(()=> {
             setTab(id);

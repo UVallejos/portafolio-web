@@ -1,6 +1,12 @@
 import React from 'react'
 
+
+{/**
+Recibe tres propiedades: active (booleano que indica si la pestaña está activa),
+selectTab (función para seleccionar la pestaña) y children (contenido del componente)
+*/}
 const TabButton = ( {active, selectTab, children} ) => {
+  {/**Determina las clases CSS para el botón basado en si la pestaña está activa o no */}
     const buttonClasses = active 
     ? "text-white border-b border-blue-500" 
     : "text-[#ADB7BE]"
