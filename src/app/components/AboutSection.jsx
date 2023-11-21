@@ -1,7 +1,7 @@
 "use client";
 import React, { useTransition, useState } from 'react';
-import Image from 'next/image';
 import TabButton from './TabButton';
+import Image from 'next/image';
 
 
 {/*información que mostrarermos en el apartado Sobre Mi */}
@@ -11,7 +11,7 @@ const TAB_DATA = [
         title: "Habilidades",
         id: "habilidades",
         content: (
-            <ul>
+            <ul className='list-disc'>
                 <li>TailwindCSS 3</li>
                 <li>Bootstrap 5</li>
                 <li>Laravel 9</li>
@@ -29,11 +29,11 @@ const TAB_DATA = [
         id: "conocimientos",
         content: (
         <ul>
-            <li>CFGS DESARROLLO DE APLICACIONES WEB</li>
+            <li>CFGS Desarrollo De Aplicaciones Web</li>
             <li>ILERNA</li>
             <li>2021 - 2023</li>
             <br />
-            <li>CFGM ACTIVIDADES COMERCIALES</li>
+            <li>CFGM Actividades Comerciales</li>
             <li>Salesians Badalona</li>
             <li>2016 - 2018</li>
         </ul>
@@ -44,15 +44,15 @@ const TAB_DATA = [
         id: "experiencia",
         content: (
             <ul>
-                <li>PRÁCTICAS DESARROLLO WEB</li>
+                <li>Pr&aacute;cticas Desarrollo Web</li>
                 <li>Qualitas Alimentaria</li>
                 <li>2023</li>
                 <br />
-                <li>ATENCIÓN AL CLIENTE</li>
+                <li>Atenci&oacute;n al Cliente</li>
                 <li>HBO Max</li>
                 <li>2019 - 2022</li>
                 <br />
-                <li>VENDEDOR</li>
+                <li>Vendedor</li>
                 <li>Decathlon</li>
                 <li>2017 - 2018</li>
             </ul>
@@ -76,22 +76,24 @@ const AboutSection = () => {
     }
   return (
     <section className='text-white'>
-        <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16'>
+        <div className='md:grid md:grid-cols-2 gap-8 items-center py-6 px-4 xl:gap-16 sm:py-16 bg-[#121212]'>
             <Image
-                src={"/images/logo.png"}
+                src={"/images/fondoFlor.png"}
                 width={500}
                 height={500}
-            />
-            <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
+                alt="Fondo Flor"
+            ></Image>
+            <div className='mt-4 md:mt-0 text-left flex flex-col h-full '>
                 <h2 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold'>
-                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-100 to-blue-400'>
+                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-100 to-orange-400'>
                         Sobre Mi
                     </span>
                 </h2>
                 <p className='text-base lg:text-lg '>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi necessitatibus 
-                    officia pariatur aliquid sunt provident error exercitationem harum quas ea ab eligendi, 
-                    cupiditate magnam repudiandae assumenda tempore porro asperiores voluptatem!
+                    Tengo sólidos conocimientos de programación y desarrollo web,adquiridos tanto de forma autodidacta como de manerareglada. 
+                    Poseo conocimientos en FrontEnd y BackEnd.
+                    Soy una persona en constante evolución y que siempre le gusta aprender sobre nuevas tecnologias que puedan facilitarnos 
+                    la forma de interactuar entre las personas.
                 </p>
                 <div className='flex flex-row justify-start mt-8'>
                     

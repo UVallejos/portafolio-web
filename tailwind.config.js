@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   content: [
@@ -10,10 +10,14 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+        'fondo': "url('/images/ssspiralVortexF.svg')",
+      }
+    },
+    colors: {
+      ...colors,
+      primary: colors.green,
+      secondary: colors.blue,
+      third: colors.yellow,
     },
     
   },
