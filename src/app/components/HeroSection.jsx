@@ -42,7 +42,7 @@ const HeroSection = () => {
 
                 </h1>
                 <p className='text-white text-sans sm:text-lg mb-6 lg:text-xl font-Poppins'>
-                    Soy un Desarrollador Junior apasionado por <br />una primera experiencia laboral en este sector.
+                    Soy un Desarrollador Junior en busca de <br />una primera experiencia laboral en este sector.
                 </p>
                 <div>
                     <Link
