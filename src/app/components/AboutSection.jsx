@@ -83,11 +83,11 @@ const AboutSection = () => {
     }
   return (
     <section className='text-white'>
-        <div className='md:grid md:grid-cols-2 gap-8 items-center py-6 px-4 xl:gap-16 sm:py-16 bg-[#121212]'>
+        <div className='md:grid md:grid-cols-2 gap-8 items-center py-6 px-2 xl:gap-16 sm:py-16 bg-[#121212]'>
             <Image
                 src={"/images/florFondo.png"}
                 width={500}
-                height={500}
+                height={400}
                 alt="Fondo Flor"
             ></Image>
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full '>

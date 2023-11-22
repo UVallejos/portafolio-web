@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
+    <html lang="es" className="dark">
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={vina_Sans.className}>{children}</body>
       
