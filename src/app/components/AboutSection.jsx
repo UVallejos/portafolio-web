@@ -29,9 +29,17 @@ const TAB_DATA = [
         id: "conocimientos",
         content: (
         <ul className='font-Poppins'>
+            <li>Bootcamp De Cero a Desarrollador Blockchain</li>
+            <li>BlockChainBites</li>
+            <li>2023</li>
+            <br />
             <li>CFGS Desarrollo De Aplicaciones Web</li>
             <li>ILERNA</li>
             <li>2021 - 2023</li>
+            <br />
+            <li>Programación moderna con Python</li>
+            <li>KeepCoding</li>
+            <li>2021</li>
             <br />
             <li>CFGM Actividades Comerciales</li>
             <li>Salesians Badalona</li>
