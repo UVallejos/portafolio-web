@@ -13,7 +13,6 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc font-mono font-Poppins'>
                 <li>TailwindCSS 3</li>
-                <li>Bootstrap 5</li>
                 <li>Laravel 9</li>
                 <li>PHP</li>
                 <li>JavaScript</li>
