@@ -56,10 +56,14 @@ const EmailSection = () => {
 
         </div>
         <div className='z-10 '>
-            <h5 className='text-xl font-bold text-white my-2'>Contacta conmigo</h5>
-            <p className='text-[#ADB7BE] mb-4 max-w-md bg-[#121212] rounded-lg'>
+            <h2 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-Poppins'>
+                  <span className='font-sans text-transparent bg-clip-text bg-gradient-to-r from-secondary-100 to-secondary-400'>
+                  Contacto
+                  </span>
+              </h2>
+            <p className='text-[#ADB7BE] mb-4 max-w-md bg-[#121212] rounded-lg font-Poppins'>
                 {" "}
-                !Hola¡ Puedes contactar conmigo dejandome llenando el siguiente formulario, 
+                !Hola¡ Puedes contactar conmigo por el siguiente formulario, 
                 en el menor tiempo posible te reponder&eacute;. <br /><br /> Tambien puedes contactarme por 
                 Linkedin y ver todos mis repositorios en GitHub
             </p>
@@ -73,8 +77,33 @@ const EmailSection = () => {
             </div>
         </div>
         <div>
-            <form className='flex flex-col pt-5' onSubmit={handleSubmit}>
-                <div className='mb-6'>
+        {emailSubmitted ? (
+          <div class="flex items-center justify-center bg-[#121212] py-5">
+          <div class="rounded-lg bg-[#121212]">
+            <div class="flex justify-center">
+              <div class="rounded-full bg-green-200 p-6">
+                <div class="flex h-16 w-16 items-center justify-center rounded-full bg-green-500 p-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-8 w-8 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <h3 class="items-center justify-center my-4 text-center text-3xl font-semibold text-white">Contacto Recibido!!!</h3>
+           <div className='flex items-center justify-center'>
+              <p class="w-full text-center font-normal text-[#ADB7BE]">En breves minutos tendrás una confirmación de recepción automatica. Hasta pronto.</p>
+           </div>
+            <Link 
+            href="/contact" 
+            onClick={() => window.location.reload()} 
+            className='mx-auto mt-10 block rounded-xl border-4 border-transparent bg-third-400 px-6 py-3 text-center text-base font-medium text-white outline-8 hover:outline hover:duration-300'>
+                Volver a Contactar
+            </Link>
+          </div>
+        </div>
+        ) : (
+            <form className='flex flex-col pt-1' onSubmit={handleSubmit}>
+                <div className='mb-4'>
                     <label htmlFor="email" type="email" className='text-white mb-2 block text-sm font-medium'>
                         Tu Correo
                     </label>
@@ -83,7 +112,7 @@ const EmailSection = () => {
                         type="email" 
                         id='email' 
                         required 
-                        placeholder='tucorreo@gmail.com' 
+                        placeholder='CorreoDeContacto@dominio.com' 
                         className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'/>    
                 </div>
                 <div className='mb-6'>
@@ -95,7 +124,7 @@ const EmailSection = () => {
                         type="text" 
                         id='subject' 
                         required 
-                        placeholder='Dime con quien tendré en gusto de comunicarme' 
+                        placeholder='Dime el Asunto de Contacto' 
                         className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'/>
                 </div>
                 <div>
@@ -109,14 +138,14 @@ const EmailSection = () => {
                         name='message'
                         id='message'
                         className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
-                        placeholder='Contacta por cualquier duda o consulta'/>
+                        placeholder='Escribe la duda o consulta que puedas tener'/>
 
                     </div>
                 </div>
                 <button type="submit"
                 className='bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full'>Enviar Mensaje</button>
             </form>
-
+            )}
         </div>
     </section>
   )

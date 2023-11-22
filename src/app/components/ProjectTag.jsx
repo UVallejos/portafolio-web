@@ -7,7 +7,7 @@ const buttonStyles = isSelected
   
     return (
         <button 
-        className={`${buttonStyles} rounded-full border-2 px-6 py-3 text-xl cursor-pointer`}
+        className={`${buttonStyles} rounded-full border-2 px-6 py-3 text-xl cursor-pointer font-RobotoCondensed`}
         onClick={() => onClick(name)}>
             {name}
         </button>

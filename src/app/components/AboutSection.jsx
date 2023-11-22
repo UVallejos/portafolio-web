@@ -11,7 +11,7 @@ const TAB_DATA = [
         title: "Habilidades",
         id: "habilidades",
         content: (
-            <ul className='list-disc'>
+            <ul className='list-disc font-mono font-Poppins'>
                 <li>TailwindCSS 3</li>
                 <li>Bootstrap 5</li>
                 <li>Laravel 9</li>
@@ -28,7 +28,7 @@ const TAB_DATA = [
         title: "Conocimientos",
         id: "conocimientos",
         content: (
-        <ul>
+        <ul className='font-Poppins'>
             <li>CFGS Desarrollo De Aplicaciones Web</li>
             <li>ILERNA</li>
             <li>2021 - 2023</li>
@@ -43,7 +43,7 @@ const TAB_DATA = [
         title: "Experiencia",
         id: "experiencia",
         content: (
-            <ul>
+            <ul className='font-Poppins'>
                 <li>Pr&aacute;cticas Desarrollo Web</li>
                 <li>Qualitas Alimentaria</li>
                 <li>2023</li>
@@ -84,13 +84,13 @@ const AboutSection = () => {
                 alt="Fondo Flor"
             ></Image>
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full '>
-                <h2 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold'>
-                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-100 to-orange-400'>
+                <h2 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-Poppins'>
+                    <span className='font-sans text-transparent bg-clip-text bg-gradient-to-r from-orange-100 to-orange-400'>
                         Sobre Mi
                     </span>
                 </h2>
-                <p className='text-base lg:text-lg '>
-                    Tengo sólidos conocimientos de programación y desarrollo web,adquiridos tanto de forma autodidacta como de manerareglada. 
+                <p className='text-base lg:text-lg font-RobotoCondensed'>
+                    Tengo sólidos conocimientos de programación y desarrollo web, adquiridos tanto de forma autodidacta como de manera reglada. 
                     Poseo conocimientos en FrontEnd y BackEnd.
                     Soy una persona en constante evolución y que siempre le gusta aprender sobre nuevas tecnologias que puedan facilitarnos 
                     la forma de interactuar entre las personas.

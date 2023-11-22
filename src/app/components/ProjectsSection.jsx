@@ -67,7 +67,11 @@ const ProjectsSection = () => {
 
   return (
     <section ref={ref} id='proyectos'>
-        <h2 className='text-center text-4xl font-bold text-white mt-4 mb-4'>Proyectos</h2>
+        <h2 className='text-center  text-4xl sm:text-5xl lg:text-6xl text-white mt-4 mb-4'>
+            <span className='font-sans text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-100'>
+                Proyectos
+            </span>
+        </h2>
         <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
             <ProjectTag 
             onClick={handleTagChange} 
