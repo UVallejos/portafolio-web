@@ -16,11 +16,7 @@ const skilList = [
       value: "27",
 
     },
-    {
-      prefix: "+",
-      metric: "Proyectos",
-      value: "6",
-    },
+    
     {
       metric: "Bootcamps",
       value: "2",
