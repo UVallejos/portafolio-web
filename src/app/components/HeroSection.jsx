@@ -6,10 +6,14 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 
+
 const HeroSection = () => {
+
+
+    
   return (
-    <section className='lg:py-10'>
-        <div className="grid grid-cols-1 lg:grid-cols-12">
+    <section className='lg:py-10' id='about'>
+        <div className="grid grid-cols-1 lg:grid-cols-12" >
             <motion.div 
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -42,17 +46,20 @@ const HeroSection = () => {
                 </p>
                 <div>
                     <Link
-                        href="/#contact"
+                        href="#contact"
                         className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-third-500 hover:bg-slate-200 text-white"
                         >
-                        Contactame
+                        Cont&aacute;ctame
                     </Link>
+                   
                     <Link
-                        href="/"
+                        target='_blank'
+                        download={"CV_UV.pdf"}
+                        href="/assets/CV_UV.pdf"
                         className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
                         >
                         <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                            Download CV
+                            Descargar CV
                         </span>
                     </Link>
                 </div>    

@@ -55,19 +55,19 @@ const EmailSection = () => {
         transform -translate-x-1/2 -traslate-1/2'>
 
         </div>
-        <div className='z-10'>
+        <div className='z-10 '>
             <h5 className='text-xl font-bold text-white my-2'>Contacta conmigo</h5>
-            <p className='text-[#ADB7BE] mb-4 max-w-md'>
+            <p className='text-[#ADB7BE] mb-4 max-w-md bg-[#121212] rounded-lg'>
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sint 
-                quo quibusdam distinctio ea deserunt libero quis expedita vel alias recusandae, 
-                placeat ipsa. Esse voluptate eveniet excepturi non repellat dolore?
+                !Hola¡ Puedes contactar conmigo dejandome llenando el siguiente formulario, 
+                en el menor tiempo posible te reponder&eacute;. <br /><br /> Tambien puedes contactarme por 
+                Linkedin y ver todos mis repositorios en GitHub
             </p>
             <div className='socials flex flex-row gap-2'>
-                <Link href="/" className='pt-1'>
+                <Link href="https://github.com/UVallejos" target='_blannk' className='pt-1'>
                     <Image src={GitHubIcon} alt='GitHub Icon' width={50} height={50}></Image>
                 </Link>
-                <Link href="/">
+                <Link href="https://www.linkedin.com/in/ulises-vallejos/" target='_blank'>
                     <Image src={LinkedinIcon} alt='Linkedin Icon' width={60} height={60}></Image>
                 </Link>
             </div>

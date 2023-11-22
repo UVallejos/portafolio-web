@@ -12,12 +12,12 @@ const navLinks = [
         href: "#about",
     },
     {
-        title: "Portafolio",
-        href: "#portafolio",
+        title: "Proyectos",
+        href: "#proyectos",
     },
     {
         title: "Contacto",
-        href: "#contacto",
+        href: "#contact",
     },
 ];
 const NavBar = () => {

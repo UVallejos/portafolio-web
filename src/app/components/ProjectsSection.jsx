@@ -18,11 +18,11 @@ const projectsArray = [
     },
     {
         id: 2,
-        title: "Fast4YouBody Laravel | PHP | SQlite",
-        description: "Proyecto final de Grado Superior, aplicación web para ayudar a la práctica del ayuno intermitente",
+        title: "Fast4YouBody Laravel | PHP",
+        description: "Proyecto final de Grado Superior, aplicación web sobre el ayuno intermitente",
         image: "/images/projects/fast4YouBoddy.png",
         tag: ["All", "Web2"],
-        gitUrl: "/", 
+        gitUrl: "https://github.com/UVallejos/portafolio-web", 
         previewUrl: "/",
     },
     {
@@ -36,11 +36,11 @@ const projectsArray = [
     },
     {
         id: 4,
-        title: "Licuadora Javascript",
+        title: "Licuadora",
         description: "Licuadora Animada en Javascript",
         image: "/images/projects/licuadora.png",
         tag: ["All", "Web2"],
-        gitUrl: "/", 
+        gitUrl: "https://github.com/UVallejos/Pr-cticas-con-JavaScript/tree/main/Licuadora", 
         previewUrl: "/",
     },
     
@@ -66,7 +66,7 @@ const ProjectsSection = () => {
 
 
   return (
-    <section ref={ref}>
+    <section ref={ref} id='proyectos'>
         <h2 className='text-center text-4xl font-bold text-white mt-4 mb-4'>Proyectos</h2>
         <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
             <ProjectTag 
@@ -84,7 +84,7 @@ const ProjectsSection = () => {
             name="Web3"
             isSelected={tag ==="Web3"} />
         </div>
-        <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>
+        <ul id='contacto' ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>
             {filterdProjects.map((project, index)=> (
                 <motion.li
                 key={index}
@@ -105,6 +105,7 @@ const ProjectsSection = () => {
                 </motion.li>
             ))}
         </ul>
+        <div id='contact'></div>
     </section>
   )
 }

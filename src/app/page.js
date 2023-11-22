@@ -7,6 +7,7 @@ import EmailSection from './components/EmailSection'
 import Footer from './components/Footer'
 import SkillsSection from './components/SkillsSection'
 
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col  bg-fondo  bg-[#121212]">
