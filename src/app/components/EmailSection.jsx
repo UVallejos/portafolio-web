@@ -64,7 +64,7 @@ const EmailSection = () => {
             <p className='text-[#ADB7BE] mb-4 max-w-md bg-[#121212] rounded-lg font-Poppins'>
                 {" "}
                 !Hola¡ Puedes contactar conmigo por el siguiente formulario, 
-                en el menor tiempo posible te reponder&eacute;. <br /><br /> Tambien puedes contactarme por 
+                en el menor tiempo posible te responder&eacute;. <br /><br /> Tambien puedes contactarme por 
                 Linkedin y ver todos mis repositorios en GitHub
             </p>
             <div className='socials flex flex-row gap-2'>
