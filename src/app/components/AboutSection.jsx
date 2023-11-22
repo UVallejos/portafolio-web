@@ -19,7 +19,7 @@ const TAB_DATA = [
                 <li>JavaScript</li>
                 <li>React</li>
                 <li>NodeJS</li>
-                <li>ExpressJS</li>
+                <li>Next.JS</li>
                 <li>Solidity</li>
             </ul>
         )
