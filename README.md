@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portafolio Web
 
-## Getting Started
+Página web SPA de presentación personal, información sobre mi persona, proyectos creados y medios de contacto
 
-First, run the development server:
+### ¿Que puedo hacer con este portafolio?
+<!-- SCREENSHOTS -->
+
+<table>
+    <tr>
+      <td>
+          <img src="./readme/Inicio/mobile.3" width="100%" title="Web in Mobile"  />
+      </td>
+      <td>
+          <img src="./readme/Inicio/tablet.3" width="100%" title="Web in Tablet"/>
+      </td>
+      <td>
+          <img src="./readme/Inicio/3" width="100%" title="Web in Desktop"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+          <img src="./readme/Sobre-mi/1" width="100%" title="Web with light mode in Mobile"  />
+      </td>
+      <td>
+          <img src="./readme/Sobre-mi/2" width="100%" title="Web with light mode in Tablet"/>
+      </td>
+      <td>
+          <img src="./readme/Sobre-mi/3" width="100%" title="Web with light mode in Desktop"/>
+      </td>
+    </tr>
+  <tr>
+      <td>
+          <img src="./readme/Proyectos/1" width="100%" title="Web with light mode in Mobile"  />
+      </td>
+      <td>
+          <img src="./readme/Proyectos/2" width="100%" title="Web with light mode in Tablet"/>
+      </td>
+      <td>
+          <img src="./readme/Proyectos/3" width="100%" title="Web with light mode in Desktop"/>
+      </td>
+    </tr>
+  <tr>
+      <td>
+          <img src="./readme/Contacto/1" width="100%" title="Web with light mode in Mobile"  />
+      </td>
+      <td>
+          <img src="./readme/Contacto/2" width="100%" title="Web with light mode in Tablet"/>
+      </td>
+      <td>
+          <img src="./readme/Contacto/3" width="100%" title="Web with light mode in Desktop"/>
+      </td>
+    </tr>
+</table>
+
+
+## Installation
+
+Install my-project with npm
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  npm install my-project
+  cd my-project
+```
+    
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run deploy
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Authors
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [@octokatherine](https://www.github.com/octokatherine)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
