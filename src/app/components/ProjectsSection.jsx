@@ -5,7 +5,6 @@ import ProjectTag from './ProjectTag'
 import { motion, useInView } from "framer-motion";
 
 {/**Información sobre mis proyectos */}
-
 const projectsArray = [
     {
         id: 1,
@@ -46,6 +45,7 @@ const projectsArray = [
     
 ];
 
+{/* Lógica Tabs */}
 const ProjectsSection = () => {
     const [tag, setTag] = useState("All");
     const ref = useRef(null);
@@ -89,7 +89,9 @@ const ProjectsSection = () => {
             isSelected={tag ==="Web3"} />
         </div>
         <ul id='contacto' ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>
+            {/* Animación y Renderizado de Cards Proyectos */}
             {filterdProjects.map((project, index)=> (
+                
                 <motion.li
                 key={index}
                 variants={cardVariants}

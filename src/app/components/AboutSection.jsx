@@ -4,8 +4,7 @@ import TabButton from './TabButton';
 import Image from 'next/image';
 
 
-{/*información que mostrarermos en el apartado Sobre Mi */}
-
+{/*iInformación que mostrarermos en el apartado Sobre Mi */}
 const TAB_DATA = [
     {
         title: "Habilidades",
@@ -82,7 +81,7 @@ const AboutSection = () => {
         });
     }
   return (
-    <section className='text-white'>
+    <section id='about' className='text-white'>
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-6 px-2 xl:gap-16 sm:py-16 bg-[#121212]'>
             <Image
                 src={"/images/florFondo.png"}
@@ -90,7 +89,7 @@ const AboutSection = () => {
                 height={400}
                 alt="Fondo Flor"
             ></Image>
-            <div className='mt-4 md:mt-0 text-left flex flex-col h-full '>
+            <div  className='mt-4 md:mt-0 text-left flex flex-col h-full '>
                 <h2 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-Poppins'>
                     <span className='font-sans text-transparent bg-clip-text bg-gradient-to-r from-orange-100 to-orange-400'>
                         Sobre Mi
@@ -118,7 +117,7 @@ const AboutSection = () => {
                     </TabButton>
                     
                 </div>
-                <div className='mt-8'>
+                <div  className='mt-8'>
                     {TAB_DATA.find((t)=> t.id === tab).content}
                 </div>
             </div>

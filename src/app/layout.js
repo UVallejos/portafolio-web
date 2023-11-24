@@ -1,9 +1,7 @@
-import { Inter, Neuton, Vina_Sans } from 'next/font/google'
+import { Inter} from 'next/font/google'
 import './globals.css'
 import { Analytics } from '@vercel/analytics/react';
 
-const inter = Inter({ subsets: ['latin'] })
-const neuton = Inter({ subsets: ['latin'] })
 const vina_Sans = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -16,7 +14,6 @@ export default function RootLayout({ children }) {
     <html lang="es" className="dark">
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={vina_Sans.className}>{children}<Analytics /></body>
-      
 
     </html>
   )
