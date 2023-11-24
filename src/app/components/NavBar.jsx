@@ -7,16 +7,16 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import Image from 'next/image';
 
 const navLinks = [
-    {
-        title: "Sobre Mi",
+    {   title: "Inicio",
+        href: "#home",
+    },
+    {   title: "Sobre Mi",
         href: "#about",
     },
-    {
-        title: "Proyectos",
+    {   title: "Proyectos",
         href: "#proyectos",
     },
-    {
-        title: "Contacto",
+    {   title: "Contacto",
         href: "#contact",
     },
 ];
@@ -36,20 +36,29 @@ const NavBar = () => {
                 alt='Logo Web'
                 />
             </Link>
-            {/*Lógica para activar navbar al clicar en el icono hamburger */}
+            {/*Lógica para activar navbar al clicar en el icono hamburger (Mobile)*/}
             <div className='mobile-menu block md:hidden'>
                     {
                         !navbarOpen ? (
-                            <button onClick={()=> setNavbarOpen(true)} className='flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white'>
+                            <button onClick={()=> setNavbarOpen(true)} className='flex items-center px-3 py-2 
+                                border rounded border-slate-200 
+                                text-slate-200 hover:text-white 
+                                hover:border-white'>
+
                                 <Bars3Icon className='h-8 w-8'/>
+
                             </button>
                         ) : (
-                            <button onClick={()=> setNavbarOpen(false)} className='flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white'>
+                            <button onClick={()=> setNavbarOpen(false)} className='flex items-center px-3 py-2
+                                border rounded border-slate-200
+                                 text-slate-200 hover:text-white 
+                                 hover:border-white'>
                                 <XMarkIcon className='h-8 w-8'/>
                             </button>
                         )
                     }
             </div>
+            {/* Barra de Navegación */}
             <div className='menu hidden md:block md:w-auto' id='navbar'>
                 <ul className='font-Poppins flex p-4 md:p-0 sm:flex-row md:space-x-8 mt-0'>
                     {
@@ -62,7 +71,7 @@ const NavBar = () => {
                 </ul>
             </div>
         </div>
-        {/*Se muestra l menu móvil */}
+        {/*Se muestra el menu móvil */}
         {navbarOpen ? <MenuOverlay links={navLinks}/> : null}
     </nav>
   )
