@@ -67,7 +67,7 @@ const EmailSection = () => {
                 Linkedin y ver todos mis repositorios en GitHub
             </p>
             <div className='socials flex flex-row gap-2'>
-                <Link href="https://github.com/UVallejos" target='_blannk' className='pt-1'>
+                <Link href="https://github.com/UVallejos/UVallejos" target='_blannk' className='pt-1'>
                     <Image src={GitHubIcon} alt='GitHub Icon' width={50} height={50}></Image>
                 </Link>
                 <Link href="https://www.linkedin.com/in/ulises-vallejos/" target='_blank'>
