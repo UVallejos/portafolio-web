@@ -84,7 +84,7 @@ const AboutSection = () => {
     <section id='about' className='text-white'>
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-6 px-2 xl:gap-16 sm:py-16 bg-[#121212]'>
             <Image
-                src={"/images/florFondo.png"}
+                src={"/images/florFondo.webp"}
                 width={500}
                 height={400}
                 alt="Fondo Flor"

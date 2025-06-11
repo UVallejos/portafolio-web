@@ -26,21 +26,12 @@ const projectsArray = [
     },
     {
         id: 3,
-        title: "Portafolio Laravel",
-        description: "Portafolio simple realizado con Tailwind CSS , PHP y Laravel",
-        image: "/images/projects/Portafolio_Laravel.png",
+        title: "Blog Wordpress",
+        description: "Blog de Comida Napolitana en Wordpress, con un diseño minimalista y elegante",
+        image: "/images/projects/blog.webp",
         tag: ["All", "Web2"],
-        gitUrl: "https://github.com/UVallejos/portafolio", 
-        previewUrl: "https://github.com/UVallejos/portafolio#readme",
-    },
-    {
-        id: 4,
-        title: "Licuadora",
-        description: "Licuadora Animada en Javascript",
-        image: "/images/projects/licuadora.png",
-        tag: ["All", "Web2"],
-        gitUrl: "https://github.com/UVallejos/Pr-cticas-con-JavaScript/tree/main/Licuadora", 
-        previewUrl: "/",
+        gitUrl: "", 
+        previewUrl: "https://napolienlamesa.com/",
     },
     
 ];

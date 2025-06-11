@@ -13,7 +13,7 @@ const AnimatedNumbers = dynamic(
 const skilList = [
     {
       metric: "Años",
-      value: "27",
+      value: "29",
     },
     
     {
@@ -21,8 +21,8 @@ const skilList = [
       value: "2",
     },
     {
-      metric: "Años de Experiencia Laboral",
-      value: "8",
+      metric: "Años de Experiencia",
+      value: "2",
     },
   ]
 
