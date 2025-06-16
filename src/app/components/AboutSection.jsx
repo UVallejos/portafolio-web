@@ -27,10 +27,10 @@ const TAB_DATA = [
         id: "conocimientos",
         content: (
         <ul className='font-Poppins'>
-            <li>Bootcamp De Cero a Desarrollador Blockchain</li>
+            <!--<li>Bootcamp De Cero a Desarrollador Blockchain</li>
             <li>BlockChainBites</li>
             <li>2023</li>
-            <br />
+            <br />-->
             <li>CFGS Desarrollo De Aplicaciones Web</li>
             <li>ILERNA</li>
             <li>2021 - 2023</li>
@@ -50,6 +50,9 @@ const TAB_DATA = [
         id: "experiencia",
         content: (
             <ul className='font-Poppins'>
+                <li>FULL STACK DEVELOPER & TIC SUPPORT</li>
+                <li>Setdart</li>
+                <li>2024 - 2025</li>
                 <li>Pr&aacute;cticas Desarrollo Web</li>
                 <li>Qualitas Alimentaria</li>
                 <li>2023</li>
@@ -57,10 +60,6 @@ const TAB_DATA = [
                 <li>Atenci&oacute;n al Cliente</li>
                 <li>HBO Max</li>
                 <li>2019 - 2022</li>
-                <br />
-                <li>Vendedor</li>
-                <li>Decathlon</li>
-                <li>2017 - 2018</li>
             </ul>
         ),
     },
