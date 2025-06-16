@@ -94,7 +94,7 @@ const AboutSection = () => {
                 <p className='text-base lg:text-lg font-RobotoCondensed'>
                     Soy Ulises Vallejos Salgado, Programador Web Junior con sede en Barcelona. Cuento con más de un año y medio de experiencia en el desarrollo y mantenimiento de aplicaciones web, utilizando tecnologías como PHP, jQuery, HTML5, CSS3, Bootstrap y MariaDB.
                 </p>
-                <br>
+                <br></br>
                 <p className='text-base lg:text-lg font-RobotoCondensed'>
                     Durante mi trayectoria he trabajado en la implementación de nuevas funcionalidades, optimización de código existente y documentación de herramientas internas. Destaco por haber liderado la migración del correo corporativo a Google Workspace, gestionando reglas de enrutamiento, integraciones con Google Apps Script, hojas de cálculo y la herramienta GAM. También he administrado sitios WordPress, desde instalaciones nuevas hasta la personalización de plugins y temas.
                 </p>
