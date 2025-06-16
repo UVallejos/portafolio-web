@@ -27,10 +27,6 @@ const TAB_DATA = [
         id: "conocimientos",
         content: (
         <ul className='font-Poppins'>
-            <!--<li>Bootcamp De Cero a Desarrollador Blockchain</li>
-            <li>BlockChainBites</li>
-            <li>2023</li>
-            <br />-->
             <li>CFGS Desarrollo De Aplicaciones Web</li>
             <li>ILERNA</li>
             <li>2021 - 2023</li>
@@ -53,6 +49,7 @@ const TAB_DATA = [
                 <li>FULL STACK DEVELOPER & TIC SUPPORT</li>
                 <li>Setdart</li>
                 <li>2024 - 2025</li>
+                <br />
                 <li>Pr&aacute;cticas Desarrollo Web</li>
                 <li>Qualitas Alimentaria</li>
                 <li>2023</li>
