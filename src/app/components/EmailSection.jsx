@@ -93,7 +93,7 @@ const EmailSection = () => {
               <p class="w-full text-center font-normal text-[#ADB7BE]">En breves minutos tendrás una confirmación de recepción automatica. Hasta pronto.</p>
            </div>
             <Link 
-            href="/contact" 
+            href="uvas.dev/contact" 
             onClick={() => window.location.reload()} 
             className='mx-auto mt-10 block rounded-xl border-4 border-transparent bg-third-400 px-6 py-3 text-center text-base font-medium text-white outline-8 hover:outline hover:duration-300'>
                 Volver a Contactar
