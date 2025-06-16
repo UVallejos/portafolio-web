@@ -92,10 +92,10 @@ const AboutSection = () => {
                     </span>
                 </h2>
                 <p className='text-base lg:text-lg font-RobotoCondensed'>
-                    Tengo sólidos conocimientos de programación y desarrollo web, adquiridos tanto de forma autodidacta como de manera reglada. 
-                    Poseo conocimientos en FrontEnd y BackEnd.
-                    Soy una persona en constante evolución y que siempre le gusta aprender sobre nuevas tecnologias que puedan facilitarnos 
-                    la forma de interactuar entre las personas.
+                    Soy Ulises Antonio Vallejos Salgado, Programador Web Junior con sede en Barcelona. Cuento con más de un año y medio de experiencia en el desarrollo y mantenimiento de aplicaciones web, utilizando tecnologías como PHP, jQuery, HTML5, CSS3, Bootstrap y MariaDB.
+                </p>
+                <p className='text-base lg:text-lg font-RobotoCondensed'>
+                    Durante mi trayectoria he trabajado en la implementación de nuevas funcionalidades, optimización de código existente y documentación de herramientas internas. Destaco por haber liderado la migración del correo corporativo a Google Workspace, gestionando reglas de enrutamiento, integraciones con Google Apps Script, hojas de cálculo y la herramienta GAM. También he administrado sitios WordPress, desde instalaciones nuevas hasta la personalización de plugins y temas.
                 </p>
                 <div className='flex flex-row justify-start mt-8'>
                     
