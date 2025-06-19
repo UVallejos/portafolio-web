@@ -10,16 +10,37 @@ const TAB_DATA = [
         title: "Habilidades",
         id: "habilidades",
         content: (
-            <ul className='list-disc font-mono font-Poppins'>
-                <li>TailwindCSS 3</li>
-                <li>Laravel 9</li>
-                <li>PHP</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>NodeJS</li>
-                <li>Next.JS</li>
-                <li>Solidity</li>
-            </ul>
+            <div className="grid grid-cols-3 gap-3">
+                <div>
+                    <ul className='list-disc font-mono font-Poppins'>
+                        <li>HTML 5</li>
+                        <li>CSS3</li>
+                        <li>TailwindCSS 3</li>
+                        <li>jQuey</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul className='list-disc font-mono font-Poppins'>
+                        <li>PHP</li>
+                        <li>Laravel 9</li>
+                        <li>NodeJS</li>
+                        <li>Next.JS</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul className='list-disc font-mono font-Poppins'>
+                        <li>Wordpress</li>
+                        <li>GAM</li>
+                        <li>Google Api</li>
+                        <li>Google Workspace</li>
+                        <li>Google App Script</li>
+                    </ul>
+                </div>
+            </div>
+            
         )
     },
     {
