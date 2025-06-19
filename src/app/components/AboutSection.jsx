@@ -58,8 +58,6 @@ const TAB_DATA = [
                         <li>2021</li>
                     </ul>
                 </div> 
-            </div>
-            <div className="grid grid-cols-1 gap-3">
                 <div>
                     <ul className='font-Poppins'>
                         <li>CFGM Actividades Comerciales</li>
@@ -90,9 +88,6 @@ const TAB_DATA = [
                         <li>2023</li>
                     </ul>
                 </div>
-                
-            </div>
-            <div className="grid grid-cols-1 gap-3">
                 <div>
                     <ul className='font-Poppins'>
                         <li>Atenci&oacute;n al Cliente</li>
