@@ -15,10 +15,8 @@ const TAB_DATA = [
                     <ul className='list-disc font-mono font-Poppins'>
                         <li>HTML 5</li>
                         <li>CSS3</li>
-                        <li>TailwindCSS 3</li>
+                        <li>Boostrap 5</li>
                         <li>jQuey</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
                     </ul>
                 </div>
                 <div>
@@ -26,7 +24,6 @@ const TAB_DATA = [
                         <li>PHP</li>
                         <li>Laravel 9</li>
                         <li>NodeJS</li>
-                        <li>Next.JS</li>
                         <li>MySQL</li>
                     </ul>
                 </div>
@@ -35,7 +32,6 @@ const TAB_DATA = [
                         <li>Wordpress</li>
                         <li>GAM</li>
                         <li>Google Api</li>
-                        <li>Google Workspace</li>
                         <li>Google App Script</li>
                     </ul>
                 </div>
