@@ -43,19 +43,31 @@ const TAB_DATA = [
         title: "Conocimientos",
         id: "conocimientos",
         content: (
-        <ul className='font-Poppins'>
-            <li>CFGS Desarrollo De Aplicaciones Web</li>
-            <li>ILERNA</li>
-            <li>2021 - 2023</li>
-            <br />
-            <li>Programación moderna con Python</li>
-            <li>KeepCoding</li>
-            <li>2021</li>
-            <br />
-            <li>CFGM Actividades Comerciales</li>
-            <li>Salesians Badalona</li>
-            <li>2016 - 2018</li>
-        </ul>
+            <div className="grid grid-cols-2 gap-3">
+                <div>
+                    <ul className='font-Poppins'>
+                        <li>CFGS Desarrollo De Aplicaciones Web</li>
+                        <li>ILERNA</li>
+                        <li>2021 - 2023</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul className='font-Poppins'>
+                        <li>Programación moderna con Python</li>
+                        <li>KeepCoding</li>
+                        <li>2021</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul className='font-Poppins'>
+                        <li>CFGM Actividades Comerciales</li>
+                        <li>Salesians Badalona</li>
+                        <li>2016 - 2018</li>
+                    </ul>
+                </div>
+                
+            </div>
+        
         )
     },
     {
