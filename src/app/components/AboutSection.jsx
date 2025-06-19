@@ -57,7 +57,9 @@ const TAB_DATA = [
                         <li>KeepCoding</li>
                         <li>2021</li>
                     </ul>
-                </div>
+                </div> 
+            </div>
+            <div className="grid grid-cols-1 gap-3">
                 <div>
                     <ul className='font-Poppins'>
                         <li>CFGM Actividades Comerciales</li>
@@ -65,7 +67,6 @@ const TAB_DATA = [
                         <li>2016 - 2018</li>
                     </ul>
                 </div>
-                
             </div>
         
         )
@@ -74,19 +75,33 @@ const TAB_DATA = [
         title: "Experiencia",
         id: "experiencia",
         content: (
-            <ul className='font-Poppins'>
-                <li>FULL STACK DEVELOPER & TIC SUPPORT</li>
-                <li>Setdart</li>
-                <li>2024 - 2025</li>
-                <br />
-                <li>Pr&aacute;cticas Desarrollo Web</li>
-                <li>Qualitas Alimentaria</li>
-                <li>2023</li>
-                <br />
-                <li>Atenci&oacute;n al Cliente</li>
-                <li>HBO Max</li>
-                <li>2019 - 2022</li>
-            </ul>
+            <div className="grid grid-cols-2 gap-3">
+                <div>
+                    <ul className='font-Poppins'>
+                        <li>FULL STACK DEVELOPER & TIC SUPPORT</li>
+                        <li>Setdart</li>
+                        <li>2024 - 2025</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul className='font-Poppins'>
+                        <li>Pr&aacute;cticas Desarrollo Web</li>
+                        <li>Qualitas Alimentaria</li>
+                        <li>2023</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div className="grid grid-cols-1 gap-3">
+                <div>
+                    <ul className='font-Poppins'>
+                        <li>Atenci&oacute;n al Cliente</li>
+                        <li>HBO Max</li>
+                        <li>2019 - 2022</li>
+                    </ul>
+                </div>
+            </div>
+            
         ),
     },
 ];
