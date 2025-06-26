@@ -76,12 +76,12 @@ const ProjectsSection = () => {
 
             <ProjectTag 
             onClick={handleTagChange} 
-            name="Laravel"
+            name="Web Apps"
             isSelected={tag ==="Web Apps"} />
 
             <ProjectTag 
             onClick={handleTagChange} 
-            name="Laravel"
+            name="Wordpress"
             isSelected={tag ==="Wordpress"} />
         </div>
         <ul id='contacto' ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>
