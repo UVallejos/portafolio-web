@@ -21,7 +21,7 @@ const projectsArray = [
         description: "Proyecto final de Grado Superior, aplicación web sobre el ayuno intermitente",
         image: "/images/projects/fast4YouBoddy.png",
         tag: ["All", "Web Apps"],
-        gitUrl: "https://github.com/UVallejos/portafolio-web", 
+        gitUrl: "https://github.com/UVallejos/Fast4UBody", 
         previewUrl: "/",
     },
     {
