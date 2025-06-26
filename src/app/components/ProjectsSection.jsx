@@ -11,7 +11,7 @@ const projectsArray = [
         title: "Portafolio React | Next.JS",
         description: "Portafolio Web animado con React en el FrontEnd y lógica de BackEnd con Next.Js",
         image: "/images/projects/Portafolio_React_NextJS.png",
-        tag: ["All", "Web2"],
+        tag: ["All", "Web Apps"],
         gitUrl: "https://github.com/UVallejos/portafolio-web", 
         previewUrl: "/",
     },
@@ -20,7 +20,7 @@ const projectsArray = [
         title: "Fast4YouBody Laravel | PHP",
         description: "Proyecto final de Grado Superior, aplicación web sobre el ayuno intermitente",
         image: "/images/projects/fast4YouBoddy.png",
-        tag: ["All", "Web2"],
+        tag: ["All", "Web Apps"],
         gitUrl: "https://github.com/UVallejos/portafolio-web", 
         previewUrl: "/",
     },
@@ -29,7 +29,7 @@ const projectsArray = [
         title: "Blog Wordpress",
         description: "Blog de Comida Napolitana en Wordpress, con un diseño minimalista y elegante",
         image: "/images/projects/blog.webp",
-        tag: ["All", "Web2"],
+        tag: ["All", "Wordpress"],
         gitUrl: "", 
         previewUrl: "https://napolienlamesa.com/",
     },
@@ -71,13 +71,18 @@ const ProjectsSection = () => {
 
             <ProjectTag 
             onClick={handleTagChange} 
-            name="Web2"
-            isSelected={tag ==="Web2"} />
+            name="App Scripts"
+            isSelected={tag ==="App Scripts"} />
 
             <ProjectTag 
             onClick={handleTagChange} 
-            name="Web3"
-            isSelected={tag ==="Web3"} />
+            name="Laravel"
+            isSelected={tag ==="Web Apps"} />
+
+            <ProjectTag 
+            onClick={handleTagChange} 
+            name="Laravel"
+            isSelected={tag ==="Wordpress"} />
         </div>
         <ul id='contacto' ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>
             {/* Animación y Renderizado de Cards Proyectos */}
