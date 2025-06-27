@@ -29,7 +29,7 @@ const NavBar = () => {
             <Link href={'/'} 
                 className='text-2xl md:text-5xl text-white'>
                 <Image
-                src={"/images/logo.png"}
+                src={"/images/logo.webp"}
                 width={50}
                 height={50}
 
