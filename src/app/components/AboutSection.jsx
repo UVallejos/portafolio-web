@@ -10,58 +10,93 @@ const TAB_DATA = [
         title: "Habilidades",
         id: "habilidades",
         content: (
-            <ul className='list-disc font-mono font-Poppins'>
-                <li>TailwindCSS 3</li>
-                <li>Laravel 9</li>
-                <li>PHP</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>NodeJS</li>
-                <li>Next.JS</li>
-                <li>Solidity</li>
-            </ul>
+            <div className="grid grid-cols-3 gap-3">
+                <div>
+                    <ul className='list-disc font-mono font-Poppins'>
+                        <li>HTML 5</li>
+                        <li>CSS3</li>
+                        <li>Boostrap 5</li>
+                        <li>jQuey</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul className='list-disc font-mono font-Poppins'>
+                        <li>PHP</li>
+                        <li>Laravel 9</li>
+                        <li>NodeJS</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul className='list-disc font-mono font-Poppins'>
+                        <li>Wordpress</li>
+                        <li>GAM</li>
+                        <li>Google Api</li>
+                        <li>Google App Script</li>
+                    </ul>
+                </div>
+            </div>
+            
         )
     },
     {
         title: "Conocimientos",
         id: "conocimientos",
         content: (
-        <ul className='font-Poppins'>
-            <li>Bootcamp De Cero a Desarrollador Blockchain</li>
-            <li>BlockChainBites</li>
-            <li>2023</li>
-            <br />
-            <li>CFGS Desarrollo De Aplicaciones Web</li>
-            <li>ILERNA</li>
-            <li>2021 - 2023</li>
-            <br />
-            <li>Programación moderna con Python</li>
-            <li>KeepCoding</li>
-            <li>2021</li>
-            <br />
-            <li>CFGM Actividades Comerciales</li>
-            <li>Salesians Badalona</li>
-            <li>2016 - 2018</li>
-        </ul>
+            <div className="grid grid-cols-2 gap-3">
+                <div>
+                    <ul className='font-Poppins'>
+                        <li>CFGS Desarrollo De Aplicaciones Web</li>
+                        <li>ILERNA</li>
+                        <li>2021 - 2023</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul className='font-Poppins'>
+                        <li>Programación moderna con Python</li>
+                        <li>KeepCoding</li>
+                        <li>2021</li>
+                    </ul>
+                </div> 
+                <div>
+                    <ul className='font-Poppins'>
+                        <li>CFGM Actividades Comerciales</li>
+                        <li>Salesians Badalona</li>
+                        <li>2016 - 2018</li>
+                    </ul>
+                </div>
+            </div>
+        
         )
     },
     {
         title: "Experiencia",
         id: "experiencia",
         content: (
-            <ul className='font-Poppins'>
-                <li>Pr&aacute;cticas Desarrollo Web</li>
-                <li>Qualitas Alimentaria</li>
-                <li>2023</li>
-                <br />
-                <li>Atenci&oacute;n al Cliente</li>
-                <li>HBO Max</li>
-                <li>2019 - 2022</li>
-                <br />
-                <li>Vendedor</li>
-                <li>Decathlon</li>
-                <li>2017 - 2018</li>
-            </ul>
+            <div className="grid grid-cols-2 gap-3">
+                <div>
+                    <ul className='font-Poppins'>
+                        <li>FULL STACK DEVELOPER & TIC SUPPORT</li>
+                        <li>Setdart</li>
+                        <li>2024 - 2025</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul className='font-Poppins'>
+                        <li>Pr&aacute;cticas Desarrollo Web</li>
+                        <li>Qualitas Alimentaria</li>
+                        <li>2023</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul className='font-Poppins'>
+                        <li>Atenci&oacute;n al Cliente</li>
+                        <li>HBO Max</li>
+                        <li>2019 - 2022</li>
+                    </ul>
+                </div>
+            </div>
+            
         ),
     },
 ];
@@ -96,10 +131,11 @@ const AboutSection = () => {
                     </span>
                 </h2>
                 <p className='text-base lg:text-lg font-RobotoCondensed'>
-                    Tengo sólidos conocimientos de programación y desarrollo web, adquiridos tanto de forma autodidacta como de manera reglada. 
-                    Poseo conocimientos en FrontEnd y BackEnd.
-                    Soy una persona en constante evolución y que siempre le gusta aprender sobre nuevas tecnologias que puedan facilitarnos 
-                    la forma de interactuar entre las personas.
+                    Soy Ulises Vallejos Salgado, Programador Web Junior con sede en Barcelona. Cuento con más de un año y medio de experiencia en el desarrollo y mantenimiento de aplicaciones web, utilizando tecnologías como PHP, jQuery, HTML5, CSS3, Bootstrap y MariaDB.
+                </p>
+                <br></br>
+                <p className='text-base lg:text-lg font-RobotoCondensed'>
+                    Durante mi trayectoria he trabajado en la implementación de nuevas funcionalidades, optimización de código existente y documentación de herramientas internas. Destaco por haber liderado la migración del correo corporativo a Google Workspace, gestionando reglas de enrutamiento, integraciones con Google Apps Script, hojas de cálculo y la herramienta GAM. También he administrado sitios WordPress, desde instalaciones nuevas hasta la personalización de plugins y temas.
                 </p>
                 <div className='flex flex-row justify-start mt-8'>
                     
