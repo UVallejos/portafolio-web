@@ -153,7 +153,7 @@ const AboutSection = () => {
                     </TabButton>
                     
                 </div>
-                <div  className='mt-8 ml-20'>
+                <div  className='mt-8 ml-4'>
                     {TAB_DATA.find((t)=> t.id === tab).content}
                 </div>
             </div>
