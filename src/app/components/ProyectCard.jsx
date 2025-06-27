@@ -67,7 +67,7 @@ const ProyectCard = ({ imgURL, title, description, gitUrl, previewUrl }) => {
         </div>
         {/* Contenido Texto */}
         <div className='text-white rounded-b-xl bg-[#181818] py-6- px-4'>
-            <h4 className='font-2xl font-bold pt-2 font-Poppins'>{title}</h4>
+            <h3 className='font-2xl font-bold pt-2 font-Poppins'>{title}</h3>
             <p className='text-[#ADB7BE] py-2 font-Poppins'>{description}</p>
         </div>
     </div>
