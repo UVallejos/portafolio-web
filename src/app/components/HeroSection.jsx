@@ -37,7 +37,7 @@ const HeroSection = () => {
 
                 </h1>
                 <p className='text-white text-sans sm:text-lg mb-6 lg:text-xl font-Poppins'>
-                    Soy un Desarrollador Junior en busca de <br />una primera experiencia laboral en este sector.
+                    Programador Web con experiencia en desarrollo frontend y backend, busco seguir creciendo, aportar valor con cada proyecto y solucionar los problemas de mis clientes.
                 </p>
                 <div>
 
