@@ -37,7 +37,7 @@ const HeroSection = () => {
 
                 </h1>
                 <p className='text-white text-sans sm:text-lg mb-6 lg:text-xl font-Poppins'>
-                    Programador Web con experiencia en desarrollo frontend y backend, busco seguir creciendo, aportar valor con cada proyecto y solucionar los problemas de mis clientes.
+                    Programador Web con experiencia en desarrollo frontend y backend, busco seguir creciendo,<br></br> aportar valor con cada proyecto y solucionar los problemas de mis clientes.
                 </p>
                 <div>
 
